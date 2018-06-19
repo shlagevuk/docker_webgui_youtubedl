@@ -1,0 +1,8 @@
+{
+  "name": "list download",
+  "script_path": "ls -lsa",
+  "description": "list all the downloaded files",
+  "requires_terminal": true,
+  "working_directory": "/data",
+  "bash_formatting": true
+}
