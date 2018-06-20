@@ -26,7 +26,7 @@ youtube-dl \
 --output "${DL_FOLDER}/%(title)s_%(upload_date)s.%(ext)s" \
 "${TO_DL}" ;
 
-mv ${DL_FOLDER}/*.mkv ${DONE_FOLDER}/
+mv ${DL_FOLDER}/*.{mkv,mp4} ${DONE_FOLDER}/
 
 for i in $(find ${DL_FOLDER} -name "*.jpg"); do
   FILE_NAME=$(basename "${i}" .jpg)

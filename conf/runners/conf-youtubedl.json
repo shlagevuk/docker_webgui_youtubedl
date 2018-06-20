@@ -5,17 +5,13 @@
   "requires_terminal": true,
   "working_directory": "/data/tmp",
   "bash_formatting": true,
-  "output_files": [
-    "/data/*.mkv",
-    "/data/*.jpg"
-  ],
   "parameters": [
     {
       "name": "url",
       "no_value": false,
       "description": "youtube url, either a video, a list or a channel",
       "required": true,
-      "default": "https://youtu.be/dQw4w9WgXcQ",
+      "default": "",
       "type": "text"
     }
   ]
